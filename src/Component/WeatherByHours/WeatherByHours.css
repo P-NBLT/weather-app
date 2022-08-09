@@ -1,0 +1,53 @@
+.title {
+  text-align: left;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+#allHoursContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 7.5px;
+  border-radius: 15px;
+  max-width: 600px;
+  color: white;
+  opacity: 1;
+  border: 1px solid cornsilk;
+  backdrop-filter: blur(8px);
+}
+
+.allHours::-webkit-scrollbar {
+  height: 15px;
+}
+
+.allHours::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 15px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+.allHours::-webkit-scrollbar-track {
+  height: 5px;
+}
+
+.allHours::-webkit-scrollbar-track-piece:start {
+  margin-left: 10px;
+}
+.allHours::-webkit-scrollbar-track-piece:end {
+  margin-right: 10px;
+}
+
+.allHours {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.hours {
+  width: 80px;
+}
+
+.hours img {
+  width: 70px;
+  height: 70px;
+}

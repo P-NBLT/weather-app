@@ -1,0 +1,12 @@
+.card {
+  width: 140px;
+  margin-bottom: 20px;
+  line-height: 1.35;
+  color: white;
+}
+
+.maxmin {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
